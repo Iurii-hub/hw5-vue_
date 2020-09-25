@@ -9,6 +9,9 @@
      -->
 
     <h1>Vuex</h1>
+    
+    <Header/>
+    <router-view/>
 
      
   </div>
@@ -16,12 +19,14 @@
 
 <script>
 
+import Header from "@/components/Header";
 export default {
   name: 'App',
   components: {
-    
+    Header
   }
 }
+
 </script>
 
 <style>
