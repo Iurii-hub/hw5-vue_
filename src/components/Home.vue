@@ -1,7 +1,6 @@
 <template>
   <div>
-    
-    
+
     <div>
         TAKEN FROM PREVIOUS HOMEWORK 'ROUTES'
     </div>

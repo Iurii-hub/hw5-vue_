@@ -1,12 +1,12 @@
-import Home from "@/components/Home";
-import MyProjects from "@/components/Todo";
+
+import Home from '@/components/Home'
+import Todo from '@/components/Todo'
 
 export const routes = [
     {
         path: "", component: Home
     },
-    
     {
-        path: "/Todo", component: MyProjects
-    },
+        path: "/todo", component: Todo
+    }
 ]
